@@ -1,0 +1,12 @@
+[project]
+name = "dca-tracker"
+version = "0.1.0"
+description = "AI Agent driven DCA investment tracker"
+requires-python = ">=3.11"
+dependencies = [
+    "gspread>=6.0.0",
+    "google-auth>=2.0.0",
+    "akshare>=1.10.0",
+    "yfinance>=0.2.0",
+    "pytest>=8.0.0",
+]
